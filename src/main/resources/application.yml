@@ -37,7 +37,7 @@ filter:
 #this for return from user jwt authentication because it's from admin  
 user:
   request:
-    uri: /users/pckart/api/v1/user-to-admin
+    uri: /pckart/api/v1/user-to-admin
 
 product:
   service:
