@@ -27,7 +27,7 @@ public class MailService {
 		MimeMessageHelper helper = new MimeMessageHelper(message);
 
 		//String url = "http://localhost:4401/register/verify?token="+token ;
-		String url = DOMAIN_URL+"/register/verify?token="+token ;
+		String url = DOMAIN_URL+"/api/v1/auth/register/verify?token="+token ;
 		System.err.println("URL :: :: >> "+url);
 		
 		String subject = "Here's your verify link - Expires in 5 minutes!";
